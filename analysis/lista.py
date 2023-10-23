@@ -213,7 +213,5 @@ df.to_csv("datos_arboles_dataframe.csv", index=False)
 
 cantidad = random.randint(100,5000)
 
-# for i in range(2):
-lista=random.choice(municipios_antioquia,arboles_antioquia)
 
 
