@@ -5,7 +5,7 @@ window.onscroll = function() {
     if (prevScrollPos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
     } else {
-        document.getElementById("navbar").style.top = "-100px"; 
+        document.getElementById("navbar").style.top = "-100px"; // Oculta el navbar al hacer scroll hacia abajo
     }
     prevScrollPos = currentScrollPos;
 }

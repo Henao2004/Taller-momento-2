@@ -1,5 +1,8 @@
 import random
+
 import pandas as pd
+
+
 municipios_antioquia = [
     "Medellín",
     "Bello",
@@ -177,6 +180,7 @@ arboles_antioquia = [
 ]
 
 
+
 datos = []
 
 for _ in range(2000):
@@ -205,5 +209,11 @@ print(df.head())
 
 # Profe los datos se guardaran en este archivo csv para ver todos los dataframe
 df.to_csv("datos_arboles_dataframe.csv", index=False)
+
+
+cantidad = random.randint(100,5000)
+
+# for i in range(2):
+lista=random.choice(municipios_antioquia,arboles_antioquia)
 
 
